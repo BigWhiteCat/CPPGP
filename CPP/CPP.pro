@@ -13,5 +13,12 @@ SUBDIRS += \
     Exercise1-9 \
     Exercise1-10 \
     Exercise1-11 \
-    Exercise1-12
+    Exercise1-12 \
+    Exercise1-13 \
+    Sales_item \
+    scope \
+    add_using \
+    arrayScore \
+    cctype \
+    char_repl
 
