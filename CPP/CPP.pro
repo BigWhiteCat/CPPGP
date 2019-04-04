@@ -20,5 +20,8 @@ SUBDIRS += \
     add_using \
     arrayScore \
     cctype \
-    char_repl
+    char_repl \
+    SimpleFirst \
+    cinAndcout \
+    firstClass
 

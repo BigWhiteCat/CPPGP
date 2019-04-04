@@ -1,4 +1,13 @@
 TEMPLATE = subdirs
 
 SUBDIRS += \
-    FunctionTemplate
+    FunctionTemplate \
+    stack1 \
+    maxauto \
+    maxdecltype \
+    maxdecltypedecay \
+    maxcommon \
+    maxdefault1 \
+    maxdefault3 \
+    max2 \
+    varsuing
