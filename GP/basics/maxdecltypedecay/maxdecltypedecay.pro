@@ -3,7 +3,8 @@ CONFIG += console c++11
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES +=
+SOURCES += \
+     main.cpp \
 
 HEADERS += \
     maxdecltypedecay.hpp

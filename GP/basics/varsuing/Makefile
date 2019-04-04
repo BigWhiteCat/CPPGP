@@ -215,6 +215,7 @@ DIST          = /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/spec_pre.prf 
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/spec_post.prf \
+		../../.qmake.stash \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -402,6 +403,7 @@ Makefile: varsuing.pro /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/linux-g++/qmake
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/qt_config.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/linux-g++/qmake.conf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/spec_post.prf \
+		../../.qmake.stash \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/exclusive_builds.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/toolchain.prf \
 		/opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/default_pre.prf \
@@ -579,6 +581,7 @@ Makefile: varsuing.pro /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/linux-g++/qmake
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/qt_config.prf:
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/linux-g++/qmake.conf:
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/spec_post.prf:
+../../.qmake.stash:
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/exclusive_builds.prf:
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/toolchain.prf:
 /opt/qt5.10/install/5.10.1/gcc_64/mkspecs/features/default_pre.prf:
@@ -615,7 +618,6 @@ clean: compiler_clean
 
 distclean: clean 
 	-$(DEL_FILE) $(TARGET) 
-	-$(DEL_FILE) .qmake.stash
 	-$(DEL_FILE) Makefile
 
 

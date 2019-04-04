@@ -8,6 +8,10 @@ SUBDIRS += \
     maxdecltypedecay \
     maxcommon \
     maxdefault1 \
-    maxdefault3 \
+    # maxdefault3 \
     max2 \
-    varsuing
+    # varsuing
+    printcoll \
+    lessarray \
+    lessstring \
+    arrays

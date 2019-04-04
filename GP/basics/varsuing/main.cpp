@@ -28,7 +28,7 @@ struct CustomerHash {
 
 template <typename... Bases>
 struct OverLoader : Bases... {
-    using Bases::operatro()...;
+    using Bases::operatr()...;
 };
 
 int main() {
