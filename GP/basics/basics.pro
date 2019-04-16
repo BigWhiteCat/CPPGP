@@ -1,3 +1,5 @@
+CONFIG += c++17
+
 TEMPLATE = subdirs
 
 SUBDIRS += \
@@ -14,4 +16,9 @@ SUBDIRS += \
     printcoll \
     lessarray \
     lessstring \
-    arrays
+    arrays \
+    move1 \
+    move2 \
+    specialmemtmp1 \
+    # specialmemtmp2 \
+    
